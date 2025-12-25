@@ -1,0 +1,12 @@
+copyright: "&copy; {{year}} Bishop, CA Christian Science Society. All rights reserved."
+contact:
+  address: "123 Church Street, Bishop, CA 93514"
+  phone: "(760) 555-0123"
+  email: "info@bishopcs.org"
+social:
+  - name: "Facebook"
+    icon: "facebook"
+    url: "#"
+  - name: "Twitter"
+    icon: "twitter"
+    url: "#"

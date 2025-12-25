@@ -1,0 +1,6 @@
+backgroundImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2000&q=80"
+title: "Welcome to Our Church"
+subtitle: "Join us in worship and community among the beauty of the mountains."
+button:
+  text: "Learn More"
+  url: "#about"

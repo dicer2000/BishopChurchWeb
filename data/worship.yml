@@ -1,0 +1,12 @@
+title: "Join Us in Worship"
+description: "We gather weekly to celebrate faith and community surrounded by the serenity of God's creation."
+button:
+  text: "Our Beliefs"
+  url: "#beliefs"
+serviceTimes:
+  - day: "Sunday"
+    time: "10:00 AM - 11:00 AM"
+    description: "Sunday Service"
+  - day: "Wednesday"
+    time: "7:00 PM - 8:00 PM"
+    description: "Testimony Meeting"

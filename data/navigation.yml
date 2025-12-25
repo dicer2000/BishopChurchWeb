@@ -1,0 +1,12 @@
+brand: "Bishop Christian Science Church"
+links:
+  - title: "Home"
+    url: "#"
+  - title: "About"
+    url: "#about"
+  - title: "Ministries"
+    url: "#ministries"
+  - title: "Events"
+    url: "#events"
+  - title: "Contact"
+    url: "#contact"
