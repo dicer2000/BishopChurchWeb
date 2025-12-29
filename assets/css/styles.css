@@ -49,7 +49,17 @@ body {
     padding: 1rem 0; /* Add some top padding */
 }
 
-.hero .content {
+.hero-t {
+  background: linear-gradient(0deg, hsla(205, 96%, 39%, 1) 0%, hsla(286, 44%, 49%, 1) 100%);
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem 0; /* Add some top padding */
+}
+
+.hero .content, .hero-t .content {
     position: relative;
     z-index: 2;
     width: 100%; /* Take full width */
@@ -57,20 +67,20 @@ body {
     margin: 0 auto; /* Center the content */
 }
 
-.hero h1 {
+.hero h1, .hero-t h1 {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for better readability */
 }
 
-.hero .lead {
+.hero .lead, .hero-t .lead {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Add text shadow for better readability */
 }
 
-.hero .bottom-container {
+.hero .bottom-container, .hero-t .bottom-container {
     margin-top: auto;
     padding: 2rem 0;
 }
