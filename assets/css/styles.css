@@ -147,6 +147,59 @@ section p {
     background-color: var(--primary-color);
 }
 
+/* Scroll Down Button */
+#section02 {
+    scroll-margin-top: 90px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+.scroll-down:hover {
+    color: #fff;
+}
+
+.scroll-down span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.scroll-down span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin: -10px 0 0 -7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+
+
 /* Event Cards */
 .event-card {
     background-color: var(--white);
